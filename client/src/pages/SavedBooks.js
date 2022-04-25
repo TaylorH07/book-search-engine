@@ -3,7 +3,7 @@ import Auth from '../utils/auth';
 
 import { useQuery, useMutation } from "@apollo/react-hooks";
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
-import { removeBookId, saveBookIds } from "../utils/localStorage";
+import { removeBookId } from "../utils/localStorage";
 import { GET_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 
@@ -70,7 +70,7 @@ const SavedBooks = () => {
                   <p className="small">Authors: {book.authors}</p>
                   <p className="small">
                     Link:{" "}
-                    <a href={book.link} target="_blank" rel="noreferrer">
+                    <a href={book.link} target="_blank" rel="noopener noreferrer">
                       {book.title}
                     </a>
                   </p>
