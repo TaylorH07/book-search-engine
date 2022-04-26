@@ -18,7 +18,7 @@ In this project, the user will be able to search any book of their choice. The b
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Installation
-If opening from the code, type "
+If opening from the code, type "npm i" to install the json packages, then npm start to run it on the local host
 
 ## Usage
 N/A
